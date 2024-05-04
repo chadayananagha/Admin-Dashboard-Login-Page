@@ -1,0 +1,152 @@
+
+.text
+{
+  margin-left: -90px;
+  margin-top: -600px;
+  line-height: 30px;
+  font-size: 42px;
+  text-align: left;
+}
+.text1
+{
+  margin-left: -90px;
+  margin-top: 30px;
+  line-height: 10px;
+  font-size: 24px;
+  text-align: left;
+}
+.submit_button
+{
+  background:#1EBAAE 0% 0% no-repeat padding-box;
+  width: 276px;
+  height: 54px;
+  margin-left: -90px;
+  font-size:16px;
+  margin-top: 100px;
+  border:none;
+  img
+  {
+    display: none;
+  }
+}
+.submit_button:hover
+{
+  background:#1EBAAE 0% 0% no-repeat padding-box;
+  width: 276px;
+  height: 54px;
+  margin-left: -90px;
+  img
+  {
+    display:inline;
+  }
+}
+.card{
+  width: 1390px;
+  height: 360px;
+  border-radius: 20px;
+  border-left:2px solid #1EBAAE;
+  border-bottom: none;
+  border-top: none;
+  border-bottom: none;
+  background: #1EBAAE 0% 0% no-repeat padding-box;
+  margin-top: 140px;
+  margin-left: 240px;
+}
+.card_image
+{
+  width:410px;
+  height:360px;
+}
+.card_title
+{
+  margin-left: -70px;
+  width:890px;
+  margin-top: 50px;
+  h1
+  {
+    font-size: 42px;
+    font-weight: bold;
+    color:white;
+  }
+  h2
+  {
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
+.card_text
+{
+  margin-top: 20px;
+  margin-left: -70px;
+  width:870px;
+  font-size: 18px;
+  line-height: 2px;
+}
+.cardscontainer
+{
+  background: #F6F4FF 0% 0% no-repeat padding-box;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  h2
+  {
+    font-size: 40px;
+  }
+  h3
+  {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+.card1
+{
+  width: 1840px;
+  height: 868px;
+  // background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 10px 10px 20px #E3D5FF80;
+  border-radius: 30px;
+  opacity: 1;
+  margin-left:30px;
+  border:none;
+  margin-top: 200px;
+}
+.card1_image
+{
+  width: 912px;
+height: 868px;
+}
+.card1_title{
+  h1
+  {
+    padding-top: 100px;
+    padding-left: 150px;
+  }
+}
+.card1_text
+{
+  margin-left:200px;
+  h4
+  {
+    color:#B09DFF;
+    margin-left: -270px;
+  }
+  p
+    {
+      line-height: 7px;
+      margin-left: -270px;
+    }
+}
+
+.footer_container
+{
+margin-top: -130px;
+}
+.border
+{
+  width:70px;
+  height:4px;
+  background:#B09DFF;
+  margin-left: 80px;
+}

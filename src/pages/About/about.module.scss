@@ -1,0 +1,112 @@
+.bannercard
+{
+  position: relative;
+  background-size: cover;
+  height: 584px;
+  width: auto;
+  margin: 0px;
+}
+.bannercard img
+{
+  position: absolute;
+}
+.bannertext
+{
+  position: absolute;
+  padding-left: 200px;
+  padding-top: 200px;
+  line-height: 30px;
+  font-size: 42px;
+  text-align: left;
+}
+.card_container
+{
+  width: 1920px;
+  height: 694px;
+  background: #EFEAFF 0% 0% no-repeat padding-box;
+  margin-top:-5px;
+  margin-bottom:540px;
+  h2  {
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 90px;
+  }
+  p
+  {
+    font-size: 16px;
+    line-height: 6px;
+  }
+
+}
+.about {
+  width:1500px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-left: 220px;
+}
+
+.cards {
+  width: 640px;
+  height: 149px;
+  background: #F9F7FF 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  border-left: 10px solid #B09DFF;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  
+}
+.card_text
+{
+  font-size: 17px;
+}
+.card_inner{
+  width: 1390px;
+  height: 454px;
+  border-radius: 20px;
+  border: none;
+  background: #1EBAAE 0% 0% no-repeat padding-box;
+  margin-top: 50px;
+  margin-left: 240px;
+}
+.card_image
+{
+  width:500px;
+  height:454px;
+}
+.cardinner_title
+{
+  margin-left: -150px;
+  width:680px;
+  margin-top: 50px;
+  font-size: 36px;
+}
+.cardinner_text
+{
+  margin-top: 20px;
+  margin-left: -150px;
+  width:680px;
+  font-size: 18px;
+}
+.team
+{
+  margin-top: -120px;
+  h2
+  {
+    font-size: 34px;
+    font-weight: bold;
+  }
+}
+.teamcards{
+  width:2050px;
+  margin-top: 4rem;
+  margin-left: 250px;
+  margin-bottom:-20px;
+}
+.teamcard{
+  width: 330px;
+  height: 380px;
+  background: #EFEAFF 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 20px;
+}

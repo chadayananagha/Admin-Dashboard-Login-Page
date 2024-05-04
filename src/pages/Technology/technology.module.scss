@@ -1,0 +1,173 @@
+.banner
+{
+  position: relative;
+  background-size: cover;
+  height: 584px;
+  width: auto;
+  margin: 0px;
+}
+.banner img
+{
+  position: absolute;
+}
+.bannertext
+{
+  position: absolute;
+  padding-left: 200px;
+  padding-top: 200px;
+  line-height: 30px;
+  font-size: 42px;
+  text-align: left;
+}
+.card
+{
+  background: #1EBAAE 0% 0% no-repeat padding-box;
+  width: 1300px;
+  height: 430px;
+  border-radius: 30px;
+  opacity: 1;
+  margin-left: 280px;
+}
+.card_row
+{
+  width:1250px;
+  margin-left: 20px;
+}
+.card_text1
+{
+  font-size: 18px;
+}
+.card_inner
+{
+  width: 1087px;
+  height: 89px;
+  opacity: 1;
+  margin-left: 100px;
+  background:white;
+}
+.card_inner:hover{
+  cursor: pointer;
+}
+.partner_button
+{
+  background:black;
+  width: 276px;
+  height: 54px;
+  margin-top: -8px;
+  img
+  {
+    display: none;
+  }
+}
+.partner_button:hover
+{
+  background:black;
+  width: 276px;
+  height: 54px;
+  img
+  {
+    display:inline;
+  }
+}
+.cloud_container{
+  width: 1364px;
+  height: 313px;
+  margin-left: 200px;
+  padding-bottom: 460px;
+}
+.image_container
+{
+  border-right:2px solid #E3D5FF;
+  width:276px;
+  height: 304px;
+  margin-top: 10px;
+}
+.image_cloud
+{
+  border-bottom:2px solid #E3D5FF ;
+}
+.text_container
+{
+  width:1050px;
+  font-size: 15px;
+  p
+  {
+    line-height: 18px;
+  }
+}
+.nav_container
+{
+  height: 1291px;
+  background: #EFEAFF;
+  border-top: 5px solid #D7CEFF;
+  nav
+  {
+    width: 1500px;
+    margin-left: 200px;
+  }
+  img
+  {
+    margin-left: 220px;
+    margin-top: 60px;
+  }
+}
+.nav_list
+{
+  margin-top: -27px;
+}
+.nav_link{
+  text-decoration:none;
+  padding:10px;
+}
+.nav_link:hover{
+  text-decoration: overline;
+  text-decoration-color: #B09DFF;
+  text-decoration-thickness: 5px;
+}
+.text
+{
+  width: 1550px;
+  margin-left:220px;
+}
+.text1
+{
+  width:1500px;
+  margin-left: 210px;
+}
+.text2
+{
+  margin-left: 210px; 
+  width:1500px;
+}
+.partner
+{
+  background: #E3D5FF 0% 0% no-repeat padding-box;
+  width: 282px;
+  height: 59px;
+  padding-left: 80px;
+  img
+  {
+    display: none;
+  }
+}
+.partner:hover
+{
+  padding-left: 40px;
+  background:#D7CEFF;
+  width: 282px;
+  height: 59px;
+  img
+  {
+    display:inline;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+}
+.text3
+{
+  font-size: 18px;
+}
+.footer_container
+{
+margin-top: -175px;
+}

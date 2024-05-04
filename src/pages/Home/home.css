@@ -1,0 +1,13 @@
+.carousel-indicators [data-bs-target]
+{
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+.carousel-control-next-icon.changed {
+  background-image: none;
+}
+.carousel-control-prev-icon.changed
+{
+  background-image: none;
+}

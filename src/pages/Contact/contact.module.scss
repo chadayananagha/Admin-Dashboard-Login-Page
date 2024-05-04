@@ -1,0 +1,116 @@
+.card_1
+{
+  position: relative;
+  background-size: cover;
+  height: 584px;
+  width: auto;
+  margin: 0px;
+}
+.card_1 img
+{
+  position: absolute;
+}
+.text
+{
+  position: absolute;
+  padding-left: 200px;
+  padding-top: 200px;
+  line-height: 30px;
+  font-size: 42px;
+  text-align: left;
+}
+.input
+{
+  width:520px;
+  height:50px;
+  border: 1px solid #939298;
+  background: transparent;
+}
+.input:focus
+{
+  border-color:#939298;
+  background: transparent;
+  box-shadow: none;
+}
+.mobile_input
+{
+  width:520px;
+  height:50px;
+  background: transparent; 
+}
+.button
+{
+  border: 1px solid #939298;
+}
+.button:hover
+{
+  border: 1px solid #939298;
+}
+.textarea
+{
+  width: 1099px;
+  height: 120px;
+  background-color: transparent;
+  border: 1px solid #939298;
+}
+.textarea:focus
+{
+  background-color: transparent;
+  border:1px solid #6A4CE5;
+  box-shadow: none;
+}
+.label_message
+{
+  padding-left: 400px;
+}
+.checkbox
+{
+  border:1px solid #E0E0E0;
+  width:20px;
+  height:20px;
+  background:none;
+  // display: inline-block;
+}
+.checkbox:focus
+{
+  // background:#6A4CE5;
+  border:1px solid #E0E0E0;
+}
+.formcheck
+{
+  padding-left:400px;
+}
+.submit_button
+{
+  background: #E0E0E0 0% 0% no-repeat padding-box;
+  width: 276px;
+  height: 54px;
+  margin-left: 1230px;
+  font-size:16px;
+  img
+  {
+    display: none;
+  }
+}
+.submit_button:hover
+{
+  background:#1EBAAE 0% 0% no-repeat padding-box;
+  width: 276px;
+  height: 54px;
+  margin-left: 1230px;
+  img
+  {
+    display:inline;
+  }
+}
+.googlemap_container {
+  padding-bottom:148px;
+}
+.footer_container
+{
+margin-top: -125px;
+}
+
+
+
+

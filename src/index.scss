@@ -1,0 +1,195 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+$primary: #d0ee2b;
+// linear-gradient(to right bottom, #3D90F4, #0A32AE);
+// $success: rgba(197, 216, 255, 0.56);
+
+$default-bg: linear-gradient(180deg, #ffffff 0%, #edf3ff 29.17%, #f1f6ff 57.81%, #abc5fa 84.37%);
+$secondary: #172a4f;
+$info: #b5cbf4;
+$light: #f0f8fa;
+$warning: #6481bb;
+$danger: #273d68;
+
+$input-bg: rgba(197, 216, 255, 0.56);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+:root {
+  --bs-heading-color: #172a4f;
+}
+
+@font-face {
+  font-family: 'Albula';
+  font-weight: 400;
+  src: url('./assets/fonts/AlbulaPro-NormalLight.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Albula';
+  font-weight: 400;
+  src: url('./assets/fonts/AlbulaPro-NormalRegular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Albula';
+  font-weight: 600;
+  src: url('./assets/fonts/AlbulaPro-NormalSemiBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Albula';
+  font-weight: 500;
+  src: url('./assets/fonts/AlbulaPro-NormalMedium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Albula';
+  font-weight: 700;
+  src: url('./assets/fonts/AlbulaPro-NormalBold.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Albula', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $default-bg;
+}
+
+.contaner_height {
+  height: calc(100vh - 90px);
+}
+
+input {
+  background-color: $input-bg;
+  height: 55px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: black;
+  border-radius: 20px;
+}
+ul {
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+// search bar css
+
+.nav-tabs .nav-link.active {
+  background-color: #172a4f !important;
+  border-radius: 25px !important;
+  color: #ffffff !important;
+  padding: 10px 30px !important;
+}
+
+.nav-tabs .nav-link:hover {
+  isolation: unset;
+  border: none;
+  color: #172a4f;
+}
+
+.tabsSection ul {
+  display: flex;
+  justify-content: space-evenly;
+  border: none !important;
+  align-items: center;
+}
+
+ul {
+  border: none !important;
+  margin-bottom: 0 !important;
+}
+
+.nav-link {
+  padding: unset;
+  font-size: 16px;
+  color: unset !important;
+  text-decoration: none !important;
+  background: none !important;
+  border: 0 !important;
+  transition: unset !important;
+  background-color: unset !important;
+  border-color: unset !important;
+  padding: 10px 30px;
+}
+
+ul.mb-3.nav.nav-tabs {
+  margin-bottom: 0rem !important;
+}
+
+.offcanvas {
+  max-width: 80%;
+  background-color: $secondary;
+}
+.offcanvas.show {
+  visibility: visible;
+}
+
+@media (max-width: 1280px) {
+  .searchbarMainSection ul {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .searchbarMainSection ul {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .nav-link {
+    margin: 10px !important;
+    border-radius: 25px !important;
+  }
+}
+
+a.text-white {
+  color: #ffffff !important;
+}
+
+a.nav-link.active {
+  color: #ffffff !important;
+}
+
+@media (min-width:992px){
+  .offcanvas.show {
+    visibility: hidden !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu {
+    padding-left: 3rem;
+  }
+  .dropdown-menu.show {
+    background-color: transparent;
+  }
+  .dropdown-item {
+    color: #ffffff;
+  }
+
+  .offcanvas {
+    color: #ffffff;
+  }
+
+  .nav-link {
+    margin: 10px !important;
+    border-radius: 25px !important;
+  }
+  
+}
+
+.dropdown-menu {
+  border: none;
+  // padding-left: 3rem;
+
+  .dropdown-item {
+    margin-bottom: 1rem;
+  }
+}

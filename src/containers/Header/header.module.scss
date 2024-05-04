@@ -1,0 +1,31 @@
+.nav_height {
+  height: 90px;
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+}
+.f_basis {
+  flex-basis: 12%;
+}
+.dropdown-menu.show {
+  display: block;
+  border: 0;
+  padding-left: 3rem !important;
+}
+.nav:hover{
+  text-decoration: underline;
+  text-decoration-color:#1EBAAE;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 10px;
+}
+.nav{
+  color:#282860;
+}
+@media (max-width: 480px) {
+  .navbar_brand {
+    padding: 1rem !important;
+  }
+}
+@media (max-width: 991px) {
+  .nav_height .partner_visibility {
+    display: none !important;
+  }
+}

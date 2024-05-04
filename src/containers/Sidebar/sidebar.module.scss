@@ -1,0 +1,16 @@
+.sidebar {
+  background-color: #e7f2f5;
+  width: 280px;
+  height: calc(100vh - 90px);
+  transition: all 0.25s ease-in-out;
+}
+.hide {
+  background-color: #e7f2f5;
+  width: 73px !important;
+  height: calc(100vh - 90px);
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+}
+.navLink {
+  height: 40px !important;
+}
